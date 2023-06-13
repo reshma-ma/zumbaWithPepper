@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".beginnersmovesActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageview"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:src="@drawable/music"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="play"
+            android:onClick="play"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="pause"
+            android:onClick="pause"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="stop"
+            android:onClick="stop"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"/>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    
+    
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="@drawable/background"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--        app:title="Lets Move"-->
+<!--        app:titleTextColor="#FFF"/>-->
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/timer"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:text="4:00"-->
+<!--        android:textSize="28sp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_gravity="center"-->
+
+<!--        android:background="@drawable/button_timer_round"/>-->
+
+
+
+<!--    android:padding="15dp"-->
+<!--    android:layout_marginLeft="110dp"-->
+
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/startbutton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/btn"-->
+<!--        android:text="start"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="28sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginLeft="08dp"/>-->
+
+
+</RelativeLayout>
